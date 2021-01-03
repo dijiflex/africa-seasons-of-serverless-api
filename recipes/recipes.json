@@ -1,0 +1,337 @@
+[
+    {
+    "id": "1",
+    "localSoupName": "Ugali",
+    "englishSoupName": "",
+    "affordability": "very affordable",
+    "complexity": "easy to prepare",
+    "imageUrl": "https://en.wikipedia.org/wiki/File:Phutu.jpg",
+    "duration": 30,
+            "ingredients": 
+                    [
+                            "1 cup of maize flour",
+                            "2 cups of water"
+                    ],
+            "steps": 
+                    [
+                            "Bring water to boiling point",
+                            "Add 1 cup of flour and let boil again",
+                            "Turn using a wooden spoon to mix water and flour",
+                            "Keep adding flour as you continue mixing",
+                            "Cook until firm, not too hard or too soft",
+                            "Serve on a plate with vegetables, beef, scrambled eggs, fish or your favourite stew"
+                    ],
+            "type": "Feature",
+            "geometry": {
+                            "type": "Point",
+                            "coordinates": [0.5, 34.583333]
+            },
+            "properties": {
+                    "name": "Dinagat Islands"
+            },
+            "country": "Kenya",
+            "states":
+                    [
+                            "Bungoma",
+                            "Busia",
+                            "Vihiga",
+                            "Kakamega"
+                    ],
+    "region": "Western",
+    "regionName":"Western"
+    },
+    {
+    "id": "2",
+    "localSoupName": "Pilau",
+    "englishSoupName": "",
+    "affordability": "a festive dish",
+    "complexity": "",
+    "imageUrl": "https://allkenyanrecipes.com/2013/06/08/pilau-pilaf/beef-pilau/",
+    "duration": 60,
+            "ingredients": 
+                    [
+                            "1/2 kg Basmati rice",
+                            "1/2 kg potatoes",
+                            "1/2 kg beef or chicken or fish filet – cubed",
+                            "1 small cup sunflower oil",
+                            "4 cups of hot water",
+                            "1 onion, chopped",
+                            "5 cloves of Garlic, crushed",
+                            "1 fresh Ginger, crushed",
+                            "2 fresh Tomatoes , sliced",
+                            "2-3 teaspoon Pilau spices",
+                            "Salt and pepper to taste"
+                    ],
+            "steps": 
+                    [
+                            "Boil beef or chicken with ginger for 10 minutes",
+                            "Add potatoes and let them boil for 5 minutes then set aside",
+                            "Heat oil and fry onions till light brown",
+                            "add garlic and Pilau spices and on a low heat, fry for 1 minute",
+                            "Add tomatoes meat/chicken with potatoes and cook till tender",
+                            "Add rice and ensure to mix everything very well before adding your broth or hot water then stir the mixture very well",
+                            "Add salt and pepper to taste then cover the pot and cook on medium heat",
+                            "When the Food is nearly dry, lower down the heat to very low,",
+                            "cover your Pilau with aluminium paper and place the lid on top",
+                            "Leave to cook for 10 minutes",
+                            "Serve your Pilau hot, you can add Kachumbari or PiliPili."
+                    ],
+            "type": "Feature",
+            "geometry": {
+                            "type": "Point",
+                            "coordinates": [-3, 39.5]
+            },
+            "properties": {
+                    "name": "Dinagat Islands"
+            },
+            "country": "Kenya",
+            "states":
+                    [
+                            "Mombasa",
+                            "Kwale",
+                            "Kilifi",
+                            "Taita-Taveta",
+                            "Tana River",
+                            "Lamu"
+                    ],
+    "region": "Coast",
+    "regionName":"Coast"
+    },
+    {
+        "id": "3",
+        "localSoupName": "Mukimo",
+        "englishSoupName": "",
+        "affordability": "",
+        "complexity": "",
+        "imageUrl": "",
+        "duration": 0,
+                "ingredients": 
+                        [
+                                "1 cup of peas",
+                                "2 cups of maize",
+                                "1 bowl of potatoes",
+                                "Salt to taste",
+                                "A bunch of pumpkin seeds",
+                                "1 Spring Onion and leek",
+                                "Baking Soda"
+                        ],
+                "steps": 
+                        [
+                                "Peel the potatoes",
+                                "Boil peas and maize until they are ready",
+                                "Boil potatoes in another dish until they are soft",
+                                "Blanch pumpkin leaves, add baking soda and blend",
+                                "Fry Leek and Onion until translucent",
+                                "Mash potatoes, peas and maize together",
+                                "Add pumpkin leaves and onions",
+                                "Serve plain or with your favourite stew"
+                        ],
+                "type": "Feature",
+                "geometry": {
+                                "type": "Point",
+                                "coordinates": [-0.75, 37] 
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Kenya",
+                "states":
+                        [
+                                "Nyandarua",
+                                "Nyeri",
+                                "Kirinyaga",
+                                "Murang'a",
+                                "Kiambu"
+                        ],
+        "region": "Central",
+        "regionName":"Central"
+        },
+        {
+            "id": "4",
+            "localSoupName": "Mursik",
+            "englishSoupName": "",
+            "affordability": "",
+            "complexity": "",
+            "imageUrl": "https://en.wikipedia.org/wiki/File:Kipsigis_Gourd.jpg",
+            "duration": 0,
+                    "ingredients": 
+                            [
+                                    "cow/goat milk",
+                                    "osek, special charcoal"
+                            ],
+                    "steps": 
+                            [
+                                    "Fresh/raw milk is poured into the specially prepared gourd",
+                                    " The gourd is then capped and placed in a cool dry place to undergo spontaneous fermentation for at least three to five days"
+                            ],
+                    "type": "Feature",
+                    "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [0.5, 36] 
+                    },
+                    "properties": {
+                            "name": "Dinagat Islands"
+                    },
+                    "country": "Kenya",
+                    "states":
+                            [
+                                    "Turkana",
+                                    "West Pokot",
+                                    "Samburu",
+                                    "Trans Nzoia",
+                                    "Uasin Gishu",
+                                    "Elgeyo-Marakwet",
+                                    "Nandi",
+                                    "Baringo",
+                                    "Laikipia",
+                                    "Nakuru",
+                                    "Narok",
+                                    "Kajiado",
+                                    "Kericho",
+                                    "Bomet"
+                            ],
+            "region": "Rift Valley",
+            "regionName":"Rift Valley"
+        },
+        {
+            "id": "5",
+            "localSoupName": "Matoke",
+            "englishSoupName": "",
+            "affordability": "",
+            "complexity": "",
+            "imageUrl": "",
+            "duration": 0,
+                    "ingredients": 
+                            [
+                                    "6 green bananas",
+                                    "2 tomatoes",
+                                    "1/2 teaspoon black pepper",
+                                    "Salt to taste",
+                                    "2 tablespoons of sunflower oil",
+                                    "1 tablespoon lemon juice",
+                                    "2 green chillies",
+                                    "150ml of water"
+                            ],
+                    "steps": 
+                            [
+                                    "Peel the green bananas and slice them",
+                                    "Chop tomatoes into small pieces",
+                                    "Slice both chillies and remove the membrane and seeds and cut into 4 pieces",
+                                    "Heat oil in pan, when hot add 1/4 teaspoon cumin seeds and let them sputter",
+                                    "Drain the bananas and add to the pan followed by tomatoes, salt, pepper and chillies",
+                                    "Mix well and add water",
+                                    "Bring stew to boil, reduce heat and simmer for 10 minutes until bananas are tender andsauce has thickened",
+                                    "Transfer to serving dish and garnish with fresh coriander"
+                            ],
+                    "type": "Feature",
+                    "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [-0.5, 34.666667]
+                    },
+                    "properties": {
+                            "name": "Dinagat Islands"
+                    },
+                    "country": "Kenya",
+                    "states":
+                            [
+                                    "Kisii",
+                                    "Migori",
+                                    "Nyamira"
+                            ],
+            "region": "Nyanza",
+            "regionName":"Nyanza"
+        },
+        {
+            "id": "6",
+            "localSoupName": "Omena",
+            "englishSoupName": "",
+            "affordability": "",
+            "complexity": "",
+            "imageUrl": "",
+            "duration": 0,
+                    "ingredients": 
+                            [
+                                    "1 cup of peas",
+                                    "2 cups of maize",
+                                    "1 bowl of potatoes",
+                                    "Salt to taste",
+                                    "A bunch of pumpkin seeds",
+                                    "1 Spring Onion and leek",
+                                    "Baking Soda"
+                            ],
+                    "steps": 
+                            [
+                                    "Peel the potatoes",
+                                    "Boil peas and maize until they are ready",
+                                    "Boil potatoes in another dish until they are soft",
+                                    "Blanch pumpkin leaves, add baking soda and blend",
+                                    "Fry Leek and Onion until translucent",
+                                    "Mash potatoes, peas and maize together",
+                                    "Add pumpkin leaves and onions",
+                                    "Serve plain or with your favourite stew"
+                            ],
+                    "type": "Feature",
+                    "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [-0.5, 34.666667] 
+                    },
+                    "properties": {
+                            "name": "Dinagat Islands"
+                    },
+                    "country": "Kenya",
+                    "states":
+                            [
+                                    "Siaya",
+                                    "Kisumu",
+                                    "Homa Bay"
+                            ],
+            "region": "Nyanza",
+            "regionName":"Nyanza"
+    },
+    {
+        "id": "7",
+        "localSoupName": "Chapati",
+        "englishSoupName": "",
+        "affordability": "",
+        "complexity": "",
+        "imageUrl": "",
+        "duration": 0,
+                "ingredients": 
+                        [
+                                "3 cups of wheat flour",
+                                "1 1/2 cups of warm water",
+                                "1 teaspoon of salt",
+                                "1 teaspoon of sugar",
+                                "Vegetable oil for frying"
+                        ],
+                "steps": 
+                        [
+                                "Add 3 cups of flour",
+                                "Add salt, sugar, 2 tablespoons of oil and 1 1/2 cups of water in a separate bowl. Stir till rhey dissolve",
+                                "Add liquid mixture to the oil bowl containing wheat flour and mix thoroughly",
+                                "Knead flour for 15 minutes, while adding flour until dough is non-sticky",
+                                "Add little oil and continue kneading to make dough soft",
+                                "Cover dough and let it settle for one hour",
+                                "After an hour, divide dough into 10-15 equal parts, making ball like shapes and place them on a flat surface dusted with flour",
+                                "Dust flour on a flat surface and start rolling the balls with a rolling pin to a circular space",
+                                "Heat a pan and place rolled circular doughs on it, fry one side of the chapati while you spin it, change to the other side. Keep adding oil while spinning",
+                                "Repeat the process with each balls of dough",
+                                "When done, serve with stew or drinks"
+                        ],
+                "type": "Feature",
+                "geometry": {
+                                "type": "Point",
+                                "coordinates": [-1.2833, 36.8167]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Kenya",
+                "states":
+                        [
+                                "Nairobi"
+                        ],
+        "region": "Nairobi",
+        "regionName":"Nairobi"
+    }     
+]
