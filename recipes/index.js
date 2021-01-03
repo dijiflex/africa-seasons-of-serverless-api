@@ -1,8 +1,9 @@
 
-const recipes =  require('./recipes.json');
+
 
 
 module.exports = async function (context, req) {
+    const recipes =  require('./recipes.json');
     let res = '';
     // const search = (req.query.search || (req.body && req.body.name));
     const search = req.query.search;
