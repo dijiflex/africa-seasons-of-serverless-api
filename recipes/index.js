@@ -2,10 +2,6 @@
 
 const MongoClient = require('mongodb').MongoClient;
 
-const auth = {
-    user: 'recipeUser',
-    password: 'NLqHYhVOd1gsngPn'
-}
 
 const uri = process.env.dbConnectionString;
 
@@ -16,11 +12,8 @@ const loadDB = async () => {
         if (db) {
             return db;
         }
-        const client = await new MongoClient(uri, { useNewUrlParser: true });
-       await client.connect( async err => {
-            db = await client.db('reciperConnector');
-            // client.close();
-        });
+        const client = await new MongoClient.connect(uri, { useNewUrlParser: true , useUnifiedTopology: true });
+        db = await client.db('reciperConnector');
 
         return db;
     } catch (err) {
@@ -34,12 +27,12 @@ module.exports = async function (context, req) {
         //Call the dabase connection
         const database = await loadDB();
         let res = '';
-        
+
         const search = req.query.search;
         if (req.query.search) {
             //Get the search query string
             const search = req.query.search;
-            
+
             res = recipes.filter(recipe => recipe.localSoupName === search);
         } else {
             res = await database.collection('recipes').find().toArray();
@@ -52,7 +45,7 @@ module.exports = async function (context, req) {
         context.log(`Error code: ${error.code} message: ${error.message}`)
         context.res = {
             status: 500, /* Defaults to 200 */
-            body: { message: error.stack }
+            body: { message: error.message, stack: error.stack }
         };
     }
 
