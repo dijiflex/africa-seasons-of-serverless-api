@@ -12,7 +12,7 @@ const loadDB = async () => {
         if (db) {
             return db;
         }
-        const client = await new MongoClient.connect(uri, { useNewUrlParser: true , useUnifiedTopology: true });
+        const client = await new MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
         db = await client.db('reciperConnector');
 
         return db;
@@ -32,9 +32,21 @@ module.exports = async function (context, req) {
         if (req.query.search) {
             //Get the search query string
             const search = req.query.search;
+            res = await database.collection('recipes').aggregate([{
+                '$search': {
+                    'autocomplete': {
+                        'query': `${search}`,
+                        'path': 'localSoupName',
+                        'fuzzy': {
+                            'maxEdits': 2
+                        }
+                    }
+                }
+            }
+            ]).toArray();
 
-            res = recipes.filter(recipe => recipe.localSoupName === search);
         } else {
+            //Return all the recipes
             res = await database.collection('recipes').find().toArray();
         }
         context.res = {
