@@ -16,10 +16,9 @@ const loadDB = async () => {
         if (db) {
             return db;
         }
-        const client = new MongoClient(uri, { useNewUrlParser: true });
-        client.connect(err => {
-            db = client.db('reciperConnector');
-            // perform actions on the collection object
+        const client = await new MongoClient(uri, { useNewUrlParser: true });
+       await client.connect( async err => {
+            db = await client.db('reciperConnector');
             // client.close();
         });
 
@@ -32,13 +31,15 @@ const loadDB = async () => {
 
 module.exports = async function (context, req) {
     try {
+        //Call the dabase connection
         const database = await loadDB();
         let res = '';
-        // const search = (req.query.search || (req.body && req.body.name));
+        
         const search = req.query.search;
         if (req.query.search) {
+            //Get the search query string
             const search = req.query.search;
-            console.log(search);
+            
             res = recipes.filter(recipe => recipe.localSoupName === search);
         } else {
             res = await database.collection('recipes').find().toArray();
